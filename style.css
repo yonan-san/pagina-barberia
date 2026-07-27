@@ -1,0 +1,151 @@
+
+.icono{
+margin-left: auto;
+border-radius: 20px;
+
+}
+
+
+.titulo-nabvar{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    font-family: "brush srcript MT", cursive;
+    color: aqua;
+}
+
+
+.nav-link:hover{
+background-color: blue;
+border-radius: 5px;
+transition: 0.3px;
+}
+
+.imagen-hover{
+    transition: transform 0.5s ease ;
+}
+.imagen-hover:hover{
+    transform:scale(1.1) !important;
+
+}
+
+.contenido-hover{
+    transition: transform 0.5s;
+
+}
+.contenido-hover:hover{
+    transform: scale(1.1) !important;
+}
+
+h1{
+    margin-left: 700px;
+}
+.carousel-item img{
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+
+@media (max-whidh: 768px) {
+    .carousel-item img{
+        height: 450px;
+        object-fit: contain;
+        background-color: black;    }
+}
+
+
+}
+.encabezado{
+background-color: #340808 ;
+
+}
+.mi-video{
+    width: 90%;
+    height: 800px;
+    object-fit: cover;
+    margin: auto;
+    display: block;
+    border-radius: 200px;
+}
+.modal-negro{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo{
+    display: flex;
+text-align: center;
+width: 100%;
+
+}
+.imagenes-hover1{
+    transition: transform 0.5s;
+}
+.imagenes-hover1:hover{
+
+      transform: scale(1.1) !important;
+}
+.modal-hover{
+        transition: transform 0.5s;
+
+}
+.modal-hover:hover{
+          transform: scale(1.1) !important;
+
+}
+
+.mi-boton:hover{
+    background-color: black;
+}
+
+
+.video-hover{
+        transition: transform 0.5s;
+
+}
+.video-hover:hover{
+    transform: scale(0.9) !important;
+}
+
+.icono {
+    width: 45px;
+    height: 45px;
+    border-radius: 20px;
+}
+
+.titulo-nabvar {
+    font-family: "Brush Script MT", cursive;
+    color: aqua;
+    margin: auto;
+}
+
+
+.icono {
+    width: 45px;
+    height: 45px;
+    border-radius: 20px;
+}
+
+
+.navbar .container-fuild {
+    position: relative;
+}
+
+@media (max-width: 768px) {
+    .titulo-nabvar {
+        position: static;
+        transform: none;
+        font-size: 14px;
+    }
+}
+
+
+@media (max-width : 768px) {
+    .carousel-item img {
+        width: 100%  !important;
+        height: auto !important;
+        object-fit: initial;
+    }
+}
